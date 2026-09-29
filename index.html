@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Semana de Aniversario — Uniremington 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== ENCABEZADO / NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner container">
+      <div class="navbar__brand">
+        <img
+          src="assets/logo_uniremington.png"
+          alt="Logo Corporación Universitaria Remington"
+          class="navbar__logo"
+        />
+        <div class="navbar__title-group">
+          <span class="navbar__title">Semana de Aniversario</span>
+          <span class="navbar__subtitle">Uniremington 2026</span>
+        </div>
+      </div>
+      <nav class="navbar__links" id="navLinks">
+        <a href="#presentacion" class="navbar__link">Inicio</a>
+        <a href="#eventos" class="navbar__link">Eventos</a>
+        <a href="https://docs.google.com/spreadsheets/d/1GHH3rGIu4f9u3CsNq-90QubThibJn3Hjh8W1isXSKqs/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="navbar__link navbar__link--cta">📊 Ver Programación Completa</a>
+      </nav>
+      <button class="navbar__burger" id="burgerBtn" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO / PRESENTACIÓN ===== -->
+  <section class="hero" id="presentacion">
+    <div class="hero__content container">
+      <span class="hero__badge">🎉 Actividad Evaluativa 2 — Semana de Aniversario</span>
+      <h1 class="hero__title">
+        Semana de Aniversario<br />
+        <span class="hero__title--accent">Uniremington</span>
+      </h1>
+      <p class="hero__subtitle">
+        Del <strong>21</strong> al <strong>26 de septiembre de 2026</strong>
+      </p>
+      <div class="hero__intro">
+        <p>
+          La <strong>Corporación Universitaria Remington</strong> celebra su aniversario institucional con una semana
+          de actividades académicas, culturales y de integración para toda la comunidad universitaria.
+          Esta página recopila la programación oficial de los <strong>6 eventos</strong> de la semana.
+          Haz clic en cada tarjeta para ver las <strong>evidencias fotográficas</strong> o accede a
+          <strong>Google Sheets</strong> para consultar la información detallada.
+        </p>
+      </div>
+      <div class="hero__actions">
+        <a href="#eventos" class="btn btn--primary">Ver Programación</a>
+        <a href="https://docs.google.com/spreadsheets/d/1GHH3rGIu4f9u3CsNq-90QubThibJn3Hjh8W1isXSKqs/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn--gold">📊 Ver Google Sheets</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EVENTOS ===== -->
+  <section class="eventos" id="eventos">
+    <div class="container">
+      <h2 class="section-title">📅 Programación de Eventos</h2>
+      <p class="section-subtitle">
+        Explora los <strong>6 eventos oficiales</strong>.
+        Pasa el cursor sobre la imagen para la vista previa de las fotografías, <strong>haz clic en la tarjeta</strong> para verlas en grande, o utiliza el botón para ir directo a Google Sheets.
+      </p>
+
+      <div class="cards-grid">
+
+        <!-- Evento 1: Lunes -->
+        <article class="card" 
+                 data-title="Apertura Uniremington Fest" 
+                 data-date="21 de septiembre de 2026"
+                 data-img-inicio="assets/lunes inicio.jpeg"
+                 data-img-fin="assets/lunes fin.jpeg">
+          <div class="card__img-wrap">
+            <img src="assets/lunes inicio.jpeg" alt="Apertura Uniremington Fest – Foto de inicio del lunes" class="card__img" loading="lazy" />
+            <!-- HOVER OVERLAY: Evidencias -->
+            <div class="card__hover-preview">
+               <div class="card__thumb-box">
+                 <img src="assets/lunes inicio.jpeg" alt="Lunes – Selfie de Inicio" />
+                 <span>📸 Inicio</span>
+               </div>
+               <div class="card__thumb-box">
+                 <img src="assets/lunes fin.jpeg" alt="Lunes – Selfie de Finalización" />
+                 <span>📸 Fin</span>
+               </div>
+            </div>
+          </div>
+          <div class="card__body">
+            <span class="card__date">📅 21 de septiembre de 2026</span>
+            <h3 class="card__title">Apertura Uniremington Fest</h3>
+            <p class="card__desc">Gran inauguración de la Semana de Aniversario con actos protocolarios, presentaciones culturales y bienvenida institucional.</p>
+            <div class="card__footer">
+              <span class="badge badge--obligatoria">Obligatoria</span>
+            </div>
+            <a href="https://docs.google.com/spreadsheets/d/1GHH3rGIu4f9u3CsNq-90QubThibJn3Hjh8W1isXSKqs/edit?gid=858933867#gid=858933867" target="_blank" rel="noopener noreferrer" class="btn btn--card excel-btn">📊 Consultar detalles en Excel</a>
+          </div>
+        </article>
+
+        <!-- Evento 2: Martes -->
+        <article class="card"
+                 data-title="Talentos Uniremington" 
+                 data-date="22 de septiembre de 2026"
+                 data-img-inicio="assets/martes 1.jpeg"
+                 data-img-fin="assets/martes 2.jpeg">
+          <div class="card__img-wrap">
+            <img src="assets/martes 1.jpeg" alt="Talentos Uniremington – Foto 1 del martes" class="card__img" loading="lazy" />
+            <div class="card__hover-preview">
+               <div class="card__thumb-box">
+                 <img src="assets/martes 1.jpeg" alt="Martes – Foto 1" />
+                 <span>📸 Inicio</span>
+               </div>
+               <div class="card__thumb-box">
+                 <img src="assets/martes 2.jpeg" alt="Martes – Foto 2" />
+                 <span>📸 Fin</span>
+               </div>
+            </div>
+          </div>
+          <div class="card__body">
+            <span class="card__date">📅 22 de septiembre de 2026</span>
+            <h3 class="card__title">Talentos Uniremington</h3>
+            <p class="card__desc">Muestra de talentos artísticos, musicales y deportivos de la comunidad universitaria.</p>
+            <div class="card__footer">
+              <span class="badge badge--obligatoria">Obligatoria</span>
+            </div>
+            <a href="https://docs.google.com/spreadsheets/d/1GHH3rGIu4f9u3CsNq-90QubThibJn3Hjh8W1isXSKqs/edit?gid=677540965#gid=677540965" target="_blank" rel="noopener noreferrer" class="btn btn--card excel-btn">📊 Consultar detalles en Excel</a>
+          </div>
+        </article>
+
+        <!-- Evento 3: Miércoles -->
+        <article class="card"
+                 data-title="Juegos – Cultura General" 
+                 data-date="23 de septiembre de 2026"
+                 data-img-inicio="assets/miercoles inicio.jpeg"
+                 data-img-fin="assets/miercoles fin.jpeg">
+          <div class="card__img-wrap">
+            <img src="assets/miercoles inicio.jpeg" alt="Juegos Cultura General – Foto de inicio del miércoles" class="card__img" loading="lazy" />
+            <div class="card__hover-preview">
+               <div class="card__thumb-box">
+                 <img src="assets/miercoles inicio.jpeg" alt="Miércoles – Selfie de Inicio" />
+                 <span>📸 Inicio</span>
+               </div>
+               <div class="card__thumb-box">
+                 <img src="assets/miercoles fin.jpeg" alt="Miércoles – Selfie de Finalización" />
+                 <span>📸 Fin</span>
+               </div>
+            </div>
+          </div>
+          <div class="card__body">
+            <span class="card__date">📅 23 de septiembre de 2026</span>
+            <h3 class="card__title">Juegos – Cultura General</h3>
+            <p class="card__desc">Competencias de conocimiento, trivias interactivas y retos intelectuales entre facultades.</p>
+            <div class="card__footer">
+              <span class="badge badge--opcional">Opcional</span>
+            </div>
+            <a href="https://docs.google.com/spreadsheets/d/1GHH3rGIu4f9u3CsNq-90QubThibJn3Hjh8W1isXSKqs/edit?gid=1030419681#gid=1030419681" target="_blank" rel="noopener noreferrer" class="btn btn--card excel-btn">📊 Consultar detalles en Excel</a>
+          </div>
+        </article>
+
+        <!-- Evento 4: Jueves -->
+        <article class="card"
+                 data-title="Declamadores Invitados" 
+                 data-date="24 de septiembre de 2026"
+                 data-img-inicio="assets/jueves inicio.jpeg"
+                 data-img-fin="assets/jueves fin.jpeg">
+          <div class="card__img-wrap">
+            <img src="assets/jueves inicio.jpeg" alt="Declamadores Invitados – Foto de inicio del jueves" class="card__img" loading="lazy" />
+            <div class="card__hover-preview">
+               <div class="card__thumb-box">
+                 <img src="assets/jueves inicio.jpeg" alt="Jueves – Selfie de Inicio" />
+                 <span>📸 Inicio</span>
+               </div>
+               <div class="card__thumb-box">
+                 <img src="assets/jueves fin.jpeg" alt="Jueves – Selfie de Finalización" />
+                 <span>📸 Fin</span>
+               </div>
+            </div>
+          </div>
+          <div class="card__body">
+            <span class="card__date">📅 24 de septiembre de 2026</span>
+            <h3 class="card__title">Declamadores Invitados</h3>
+            <p class="card__desc">Presentación de poetas y declamadores invitados con recitales en vivo que celebran la palabra y la tradición literaria.</p>
+            <div class="card__footer">
+              <span class="badge badge--opcional">Opcional</span>
+            </div>
+            <a href="https://docs.google.com/spreadsheets/d/1GHH3rGIu4f9u3CsNq-90QubThibJn3Hjh8W1isXSKqs/edit?gid=1010271516#gid=1010271516" target="_blank" rel="noopener noreferrer" class="btn btn--card excel-btn">📊 Consultar detalles en Excel</a>
+          </div>
+        </article>
+
+        <!-- Evento 5: Viernes -->
+        <article class="card"
+                 data-title="Entrega de Distinciones" 
+                 data-date="25 de septiembre de 2026"
+                 data-img-inicio="assets/viernes 1.jpeg"
+                 data-img-fin="assets/viernes 2.jpeg">
+          <div class="card__img-wrap">
+            <img src="assets/viernes 1.jpeg" alt="Entrega de Distinciones – Foto 1 del viernes" class="card__img" loading="lazy" />
+            <div class="card__hover-preview">
+               <div class="card__thumb-box">
+                 <img src="assets/viernes 1.jpeg" alt="Viernes – Foto 1" />
+                 <span>📸 Inicio</span>
+               </div>
+               <div class="card__thumb-box">
+                 <img src="assets/viernes 2.jpeg" alt="Viernes – Foto 2" />
+                 <span>📸 Fin</span>
+               </div>
+            </div>
+          </div>
+          <div class="card__body">
+            <span class="card__date">📅 25 de septiembre de 2026</span>
+            <h3 class="card__title">Entrega de Distinciones</h3>
+            <p class="card__desc">Ceremonia de reconocimiento a estudiantes, docentes y administrativos destacados por su excelencia académica.</p>
+            <div class="card__footer">
+              <span class="badge badge--opcional">Opcional</span>
+            </div>
+            <a href="https://docs.google.com/spreadsheets/d/1GHH3rGIu4f9u3CsNq-90QubThibJn3Hjh8W1isXSKqs/edit?gid=105836265#gid=105836265" target="_blank" rel="noopener noreferrer" class="btn btn--card excel-btn">📊 Consultar detalles en Excel</a>
+          </div>
+        </article>
+
+        <!-- Evento 6: Sábado -->
+        <article class="card"
+                 data-title="Día de la Familia Uniremington y Feria Empresarial" 
+                 data-date="26 de septiembre de 2026"
+                 data-img-inicio="assets/sabado 1.jpeg"
+                 data-img-fin="assets/sabado 2.jpeg">
+          <div class="card__img-wrap">
+            <img src="assets/sabado 1.jpeg" alt="Día de la Familia y Feria Empresarial – Foto 1 del sábado" class="card__img" loading="lazy" />
+            <div class="card__hover-preview">
+               <div class="card__thumb-box">
+                 <img src="assets/sabado 1.jpeg" alt="Sábado – Foto 1" />
+                 <span>📸 Inicio</span>
+               </div>
+               <div class="card__thumb-box">
+                 <img src="assets/sabado 2.jpeg" alt="Sábado – Foto 2" />
+                 <span>📸 Fin</span>
+               </div>
+            </div>
+          </div>
+          <div class="card__body">
+            <span class="card__date">📅 26 de septiembre de 2026</span>
+            <h3 class="card__title">Día de la Familia Uniremington y Feria Empresarial</h3>
+            <p class="card__desc">Jornada de integración familiar con stands empresariales, emprendimiento y cierre oficial del aniversario.</p>
+            <div class="card__footer">
+              <span class="badge badge--opcional">Opcional</span>
+            </div>
+            <a href="https://docs.google.com/spreadsheets/d/1GHH3rGIu4f9u3CsNq-90QubThibJn3Hjh8W1isXSKqs/edit?gid=868186791#gid=868186791" target="_blank" rel="noopener noreferrer" class="btn btn--card excel-btn">📊 Consultar detalles en Excel</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MODAL DE EVIDENCIAS FOTOGRÁFICAS ===== -->
+  <div class="modal" id="photoModal">
+    <div class="modal__backdrop" id="modalBackdrop"></div>
+    <div class="modal__content">
+      <button class="modal__close" id="modalClose" aria-label="Cerrar Modal">&times;</button>
+      <div class="modal__header">
+        <h3 class="modal__title" id="modalTitle">Título del Evento</h3>
+        <span class="modal__date" id="modalDate">Fecha del Evento</span>
+      </div>
+      <div class="modal__grid">
+        <div class="modal__col">
+          <h4 class="modal__subtitle">📸 Fotografía de Inicio</h4>
+          <img src="" id="modalImgInicio" alt="Foto de Inicio del Evento">
+        </div>
+        <div class="modal__col">
+          <h4 class="modal__subtitle">📸 Fotografía de Finalización</h4>
+          <img src="" id="modalImgFin" alt="Foto de Finalización del Evento">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img
+          src="assets/logo_uniremington.png"
+          alt="Logo Uniremington"
+          class="footer__logo"
+        />
+        <p>&copy; 2026 Corporación Universitaria Remington. Todos los derechos reservados.</p>
+      </div>
+      <div class="footer__links">
+        <a href="#presentacion">Inicio</a>
+        <a href="#eventos">Eventos</a>
+        <a href="https://docs.google.com/spreadsheets/d/1GHH3rGIu4f9u3CsNq-90QubThibJn3Hjh8W1isXSKqs/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Ver Programación Completa</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
